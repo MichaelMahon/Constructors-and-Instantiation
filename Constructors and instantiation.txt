@@ -31,7 +31,7 @@ new Car()
 	new Gondola(6);
 
 7) public Data(String[] args)
-	new Data(["this", "is", "an", "array"]);
+	new Data({"this", "is", "an", "array", "of", "strings"});
 
 8) public CelestialObject(Double distanceFromSol)
 	new CelestialObject(1.245);
