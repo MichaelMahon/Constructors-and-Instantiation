@@ -16,28 +16,28 @@ new Car()
 	new Car();
 
 2) public Bean(int weight)
-	new Bean(weight);
+	new Bean(25);
 
 3) public Airplane(long maxDistance)
-	new Airplane(maxDistance)
+	new Airplane(12345678910L)
 
 4) public Bus(int seats)
-	new Bus(seats)
+	new Bus(10)
 
 5) public SkiLift(int chairs, float maxSpeed, float maxCapacity)
-	new SkiLift(chairs, maxSpeed, maxCapacity);
+	new SkiLift(2, 4.02f, 2.23f);
 
 6) public Gondola(int maxOccupancy)
-	new Gondola(maxOccupancy);
+	new Gondola(6);
 
 7) public Data(String[] args)
-	new Data(args);
+	new Data(["this", "is", "an", "array"]);
 
 8) public CelestialObject(Double distanceFromSol)
-	new CelestialObject();
+	new CelestialObject(1.245);
 
 9) public Sun(Double maxSurfaceTemperature)
-	new Sun(maxSurfaceTemperature);
+	new Sun(1.278);
 
 10) public Pluto(boolean isPlanetOrNot)
-	new Pluto(isPlanetOrNot);
+	new Pluto(true);
